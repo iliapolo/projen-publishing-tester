@@ -2,6 +2,7 @@ import { cdk } from 'projen';
 const project = new cdk.JsiiProject({
   author: 'user',
   release: true,
+  releaseToNpm: false,
   authorAddress: 'user@domain.com',
   defaultReleaseBranch: 'main',
   jsiiVersion: '~5.7.0',
